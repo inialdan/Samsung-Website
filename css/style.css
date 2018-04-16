@@ -1,0 +1,788 @@
+body{
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+	font-family: 'Calibri', sans-serif;
+}
+
+
+.dariP2{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	color: #FFF;
+	font-size: 23px;
+}
+.dariP3{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	color: white;
+	font-size: 23px;
+}
+
+.dariContact{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	color: black;
+	font-size: 23px;	
+	margin-top: -12%;	
+}
+
+@keyframes kebawahPartSatu{
+		from{
+			margin-top: 0px;
+		}to{
+			margin-top: 33px;
+		}
+	}
+	@keyframes kekiriPartSatu{
+		from{
+			margin-left: -120px;
+		}to{
+			margin-left: 0px;
+		}
+	}
+
+	@keyframes headergerak{
+		from{
+			margin-left: -30px;
+		}to{
+			margin-left: 0px;
+		}
+	}
+
+	@keyframes logogerak{
+		from{
+			margin-top: -25px;
+			margin-left: 0px;
+		}to{
+			margin-left: 0px;
+			margin-left: 25px;
+		}
+	}
+
+	@keyframes carijalan{
+		from{
+			margin-right: -300px;
+		}to{
+			margin-right: 50px;
+		}
+	}
+
+.responsif{
+	width: 100%;
+	height: auto;
+}
+
+.TheHeader{
+	width: 100%;
+	height: 70px;
+	float: left;
+	background-color: #fff;
+	position: fixed;
+	z-index: 1000;
+}
+.TheHeader p{
+	margin: 0px;
+}
+.TheHeader a{
+	outline: none;
+}
+.logo{
+	width: 120px;
+	height: 70px;
+	float: left;
+	margin: 2px 0px 6px 25px;
+	animation :logogerak 2s;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.putih{
+	color: #fff;
+}
+
+.TheHeader ul{
+	float: left;
+	position: relative;
+}
+.TheHeader ul li{
+	float: left;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	animation: headergerak 2s;
+}
+.TheHeader ul li a{
+	display: block;
+	padding: 10px 20px;
+	color: black;
+	text-decoration: none;
+	text-transform: capitalize;
+	transition: color 0.2s;
+	outline: none
+}
+.TheHeader ul li a:hover{color: #ff5555}
+.TheHeader ul li a:hover .fa{color: #ff5555}
+.cari{
+	float: right;
+	border: 1px solid #ddd;
+	margin-right: 50px;
+	margin-top: 20px;
+	animation: carijalan 2s;
+}
+.cari input[type="text"]{
+	width: 200px;
+	border: none;
+	outline: none;
+	float: left;
+	color: #ccc;
+	padding: 8px;
+}
+.cari button{
+	outline: none;
+	float: left;
+	color: #888;
+	border: 1px solid #ddd;
+	padding: 7px 10px;
+	cursor: pointer;
+}
+
+
+/***************************************************************/
+
+.img-1{
+	float: left;
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	margin-top: 270px;
+	left: 30px;
+}
+.img-1 img{
+	float: left;
+	width: 700px;
+	height: 300px;
+}
+.img-2{
+	float: left;
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	margin-top: 240px;
+	left: 15%;
+}
+.img-2 img{
+	float: left;
+	width: 700px;
+	height: 399px;
+}
+
+/***************************************************************/
+
+.banner{
+	width: 100%;
+	height: 677px;
+	padding: 0px;
+	margin: 0px;
+	background: url(../img/banner/banner.jpg) center no-repeat fixed;
+	background-size: 100%;
+}
+.banner h2{
+	float: left;
+	display: block;
+	color: #fff;
+	font-family: 'Calibri', sans-serif;
+	font-weight: bold;
+	position: relative;
+	top: 100px;
+	left: 60px;
+	text-transform: capitalize;
+	font-size: 40px;
+	animation: kebawahPartSatu 1s;
+}
+.banner p{
+	float: left;
+	display: block;
+	position: absolute;
+	font-family: 'Calibri', sans-serif;
+	font-size: 21px;
+	top: 325px;
+	left: 500px;
+	font-weight: bolder;
+	color: white;
+	animation: kekiriPartSatu 3s;
+}
+
+.banner h3{
+	float: left;
+	display: block;
+	color: #fff;
+	font-family: 'Calibri', sans-serif;
+	font-weight: bold;
+	position: relative;
+	top: 180px;
+	left: 30px;
+	text-transform: capitalize;
+	font-size: 40px
+}
+.banner .satu{
+	float: left;
+	display: block;
+	position: absolute;
+	font-family: 'Calibri', sans-serif;
+	font-size: 21px;
+	top: 900px;
+	right: 30px;
+	font-weight: bolder;
+	color: black;
+}
+.banner .Join{
+	width: 70px;
+	height: 30px;
+	border: 3px solid white;
+	background-color: transparent;
+	color: white;
+	float: left;
+	position: relative;
+	top: 265px;
+	left: -50px;
+	text-align: center;
+	padding-top: 2px;
+	font-weight: bold;
+	font-family: 'Agency FB';
+	font-size: 23px;
+}
+.banner .JoinInstadan{
+	width: 170px;
+	height: 30px;
+	border: 3px solid white;
+	background-color: transparent;
+	color: white;
+	float: left;
+	position: relative;
+	top: 270px;
+	left: -155px;
+	text-align: center;
+	padding: 0;
+	font-weight: bold;
+	font-family: 'Segoe ui light';
+	font-size: 22px;
+}
+.banner .Join:hover{
+	background-color: #1F3A93;
+	color: black;
+}
+.banner .JoinInstadan:hover{
+	background-color: #1F3A93;
+	color: black;
+}
+
+.banner h4{
+	float: left;
+	display: block;
+	color: #fff;
+	font-family: 'Calibri', sans-serif;
+	font-weight: bold;
+	position: relative;
+	top: 100px;
+	left: 60px;
+	text-transform: capitalize;
+	font-size: 40px
+}
+.banner .dua{
+	float: left;
+	font-family: 'Agency FB', sans-serif;
+	font-size: 27px;
+	right: 50px;
+	font-weight: bolder;
+	color: black;
+}
+
+/************************************************************************/
+
+.container{
+	float: left;
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+}
+.about{
+	width: 100%;
+	height: 600px;
+	float: left;
+	background-color: #F2F2F2;
+}
+.event{
+	width: 100%;
+	height: 700px;
+	float: left;
+	background-color: #FFF;
+	margin: 10px 0px;
+}
+.portofolio{
+	width: 100%;
+	height: 700px;
+	float: left;
+	background: url(../img/portofolio/samsung-portofolio.jpg) center no-repeat fixed;
+}
+.portofolio-2{
+	width: 100%;
+	height: 363px;
+	float: left;
+	background: url(../img/portofolio/launching_people_toJoin.jpg) center no-repeat fixed;
+}
+.portofolio-3{
+	width: 100%;
+	height: 690px;
+	float: left;
+	background: url(../img/portofolio/banner.jpg) center no-repeat fixed;
+}
+.contact{
+	width: 100%;
+	height: 430px;
+	float: left;
+	margin-top: 14%;
+	background: url(../img/portofolio/event-bg.jpg) center no-repeat;
+}
+
+.judul{
+	width: 100%;
+	padding: 10px;
+	font-family: 'Calibri', sans-serif;
+	color: #4E4E4E;
+	text-align: center;
+}
+.judul h1{
+	font-size: 36px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+.judul p{
+	line-height: 1.4;
+	font-size: 19px;
+}
+
+.judulEvent{
+	width: 100%;
+	padding: 10px;
+	font-family: 'Calibri', sans-serif;
+	color: #4E4E4E;
+	text-align: center;
+}
+.diBawah{
+	width: 100%;
+	padding: 10px;
+	font-family: 'Calibri', sans-serif;
+	color: #4E4E4E;
+	text-align: center;
+}
+.diBawah h4{
+	font-size: 36px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.diBawah p{
+	line-height: 1.4;
+	font-size: 19px;
+}
+.diBawah p a{
+	text-decoration: none;
+	color: #4E4E4E;
+}
+
+.judulPortofolio{
+	width: 100%;
+	padding: 10px;
+	font-family: 'Calibri', sans-serif;
+	color: #FFF;
+	text-align: center;
+}
+.diBawahPortofolio{
+	width: 100%;
+	padding: 10px;
+	font-family: 'Calibri', sans-serif;
+	color: #FFF;
+	text-align: center;
+}
+.diBawahPortofolio h4{
+	font-size: 36px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.diBawahPortofolio p{
+	line-height: 1.4;
+	font-size: 19px;
+}
+.diBawahPortofolio p a{
+	text-decoration: none;
+	color: white;
+}
+
+
+/******************************************************************************/
+
+.cols-3{
+	width: 23%;
+	margin: 0 66px;
+}
+.cols-3 .fa{
+	width: 100px;
+	padding: 20px 0;
+	margin: 0 10px;
+	font-size: 60px;
+	float: left;
+	color: #1F3A93;
+	background-color: #fff;
+	text-align: center;
+	border-radius: 100%;
+	border: 4px solid #CCCCCC;
+	transition: background-color 0.8s ease, color 0.5s ease, border 1s;
+}
+.cols-3 .fa:hover{
+	background-color: #C52D2F;
+	color: #FFF;
+	border: 4px solid #C52D2F;
+}
+.cols-3 h1{
+	font-size: 20px;
+	float: left;
+	color: #4E4E4E;
+	text-transform: capitalize;
+}
+.cols-3 p{
+	color: #4E4E4E;
+	display: block;
+	float: left;
+	width: auto;
+	position: relative;
+	top: -60px;
+	left: 130px;
+}
+
+/*********************************************************************************/
+			/*************** GAMBAR DARI EVENT ****************/
+
+.event-foto{
+	width: 80%;
+	height: auto;
+	float: left;
+	margin: 10px 10%;
+}
+
+.gambar-1{
+	width: 25%;
+	height: 200px;
+	float: left;
+	background: url(../img/event/1.jpg) no-repeat center;
+	background-size: 100%;
+}
+.gambar-2{
+	width: 25%;
+	height: 200px;
+	float: left;
+	background: url(../img/event/2.jpg) no-repeat center;
+	background-size: 100%;
+}
+.gambar-3{
+	width: 25%;
+	height: 200px;
+	float: left;
+	background: url(../img/event/3.jpg) no-repeat center;
+	background-size: 100%;
+}
+.gambar-4{
+	width: 25%;
+	height: 200px;
+	float: left;
+	background: url(../img/event/4.jpg) no-repeat center;
+	background-size: 100%;
+}
+.gambar-5{
+	width: 25%;
+	height: 200px;
+	float: left;
+	background: url(../img/event/5.jpg) no-repeat center;
+	background-size: 100%;
+}
+.gambar-6{
+	width: 25%;
+	height: 200px;
+	float: left;
+	background: url(../img/event/6.jpg) no-repeat center;
+	background-size: 100%;
+}
+.gambar-7{
+	width: 25%;
+	height: 200px;
+	float: left;
+	background: url(../img/event/7.jpg) no-repeat center;
+	background-size: 100%;
+}
+.gambar-8{
+	width: 25%;
+	height: 200px;
+	float: left;
+	background: url(../img/event/8.jpg) no-repeat center;
+	background-size: 100%;
+}
+.gambar-hover{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(31, 31, 190, 0.7);
+	float: left;
+	visibility: hidden;
+}
+.gambar-hover a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	margin: 10px; padding: 0px;
+}
+.gambar-hover p{
+	color: #fff;
+	text-align: justify;
+	width: 80%;
+	display: block;
+	margin: 0px auto;
+}
+.gambar-1:hover > .gambar-hover{
+	visibility: visible;
+	animation: fade 0.4s;
+}
+
+.gambar-2:hover > .gambar-hover{
+	visibility: visible;
+	animation: fade 0.4s;
+}
+
+.gambar-3:hover > .gambar-hover{
+	visibility: visible;
+	animation: fade 0.4s;
+}
+.gambar-4:hover > .gambar-hover{
+	visibility: visible;
+	animation: fade 0.4s;
+}
+.gambar-5:hover > .gambar-hover{
+	visibility: visible;
+	animation: fade 0.4s;
+}
+.gambar-6:hover > .gambar-hover{
+	visibility: visible;
+	animation: fade 0.4s;
+}
+.gambar-7:hover > .gambar-hover{
+	visibility: visible;
+	animation: fade 0.4s;
+}
+.gambar-8:hover > .gambar-hover{
+	visibility: visible;
+	animation: fade 0.4s;
+}
+@keyframes fade{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+.portofolio-foto{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 25px;
+}
+.gambarP-1{
+	width: 20%;
+	height: 200px;
+	float: left;
+	background: url(../img/portofolio/p1.jpg) no-repeat center;
+	background-size: 100%;
+}
+.gambarP-2{
+	width: 20%;
+	height: 200px;
+	float: left;
+	background: url(../img/portofolio/p2.jpg) no-repeat center;
+	background-size: 100%;
+}
+.gambarP-3{
+	width: 20%;
+	height: 200px;
+	float: left;
+	background: url(../img/portofolio/p3.jpg) no-repeat center;
+	background-size: 100%;
+}
+.gambarP-4{
+	width: 20%;
+	height: 200px;
+	float: left;
+	background: url(../img/portofolio/p4.jpg) no-repeat center;
+	background-size: 100%;
+}
+.gambarP-5{
+	width: 20%;
+	height: 200px;
+	float: left;
+	background: url(../img/portofolio/p5.jpg) no-repeat center;
+	background-size: 100%;
+}
+.gambarP-6{
+	width: 20%;
+	height: 200px;
+	float: left;
+	background: url(../img/portofolio/p6.jpg) no-repeat center;
+	background-size: 100%;
+}
+.gambarP-7{
+	width: 20%;
+	height: 200px;
+	float: left;
+	background: url(../img/portofolio/p7.jpg) no-repeat center;
+	background-size: 100%;
+}
+.gambarP-8{
+	width: 20%;
+	height: 200px;
+	float: left;
+	background: url(../img/portofolio/p8.jpg) no-repeat center;
+	background-size: 100%;
+}
+.gambarP-9{
+	width: 20%;
+	height: 200px;
+	float: left;
+	background: url(../img/portofolio/p9.jpg) no-repeat center;
+	background-size: 100%;
+}
+.gambarP-10{
+	width: 20%;
+	height: 200px;
+	float: left;
+	background: url(../img/portofolio/p10.jpg) no-repeat center;
+	background-size: 100%;
+}
+.gambarP-hover{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(31, 31, 190, 0.7);
+	float: left;
+	visibility: hidden;
+}
+.gambarP-hover a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	margin: 10px; padding: 0px;
+}
+.gambarP-hover p{
+	color: #fff;
+	text-align: justify;
+	width: 80%;
+	display: block;
+	margin: 0px auto;
+}
+.gambarP-1:hover > .gambarP-hover{
+	visibility: visible;
+	animation: portofoliofade 0.4s;
+}
+
+.gambarP-2:hover > .gambarP-hover{
+	visibility: visible;
+	animation: portofoliofade 0.4s;
+}
+
+.gambarP-3:hover > .gambarP-hover{
+	visibility: visible;
+	animation: portofoliofade 0.4s;
+}
+.gambarP-4:hover > .gambarP-hover{
+	visibility: visible;
+	animation: portofoliofade 0.4s;
+}
+.gambarP-5:hover > .gambarP-hover{
+	visibility: visible;
+	animation: portofoliofade 0.4s;
+}
+.gambarP-6:hover > .gambarP-hover{
+	visibility: visible;
+	animation: portofoliofade 0.4s;
+}
+.gambarP-7:hover > .gambarP-hover{
+	visibility: visible;
+	animation: portofoliofade 0.4s;
+}
+.gambarP-8:hover > .gambarP-hover{
+	visibility: visible;
+	animation: portofoliofade 0.4s;
+}
+.gambarP-9:hover > .gambarP-hover{
+	visibility: visible;
+	animation: portofoliofade 0.4s;
+}
+.gambarP-10:hover > .gambarP-hover{
+	visibility: visible;
+	animation: portofoliofade 0.4s;
+}
+@keyframes portofoliofade{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.footer{
+	width: 100%;
+	height: 50px;
+	float: left;
+	background-color: white;
+	border-bottom: 1px solid #222;
+	position: fixed;
+	box-sizing: border-box;
+	z-index: 1000;
+	bottom: -1px;
+}
+.footer p:not(.dikanan){
+	color: black;
+	display: block;
+	float: left;
+	padding: 0px 100px;
+}
+.footer p.dikanan{
+	float: right;
+	margin: 0px 50px;
+}
+.icon-contact{
+	float: left;
+	background-color: #404040;
+	display: block;
+	color: #fff;
+	font-size: 15px;
+	width: 30px;
+	padding: 5px 0px;
+	text-align: center;
+	margin-right: 5px;
+	margin-top: 10px;
+	border-radius: 2px;
+	transition: background-color 0.4s;
+	outline: none;
+}
+.icon-contact:hover{background-color: #c52d2f;}

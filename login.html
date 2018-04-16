@@ -1,0 +1,107 @@
+<!Doctype HTML>
+<html>
+    <head>
+        <title>Instadan</title>
+        <link rel="stylesheet" type="text/css" href="css/cssLogin.css">
+        <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#slideShow > div:gt(0)").hide();
+                    setInterval(function() { 
+                $('#slideShow > div:first')
+                    .fadeOut(3000)
+                    .next()
+                    .fadeIn(3000)
+                    .end()
+                    .appendTo('#slideShow');
+                    },      3000);
+            });
+        </script>
+        <style type="text/css">
+            #slideShow{
+                margin-top: 129px;
+                margin-left: 180px;
+                width: 252px; 
+                height: 500px; 
+
+            }
+            #slideShow > div { 
+                position: absolute;             
+            }
+            img{
+                width: 252px;
+                height: 450px;  
+            }
+
+            .Agency{;
+                font-family: 'Agency FB';
+                font-size: 19px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="Inti">
+            <div id="FotoMenuInstadan"> 
+                <div id="slideShow" onmousedown="return false">
+                    <div>
+                        <img src="img/Menu/Instagram_1.jpg" onmousedown="return false">
+                    </div>
+                    <div>
+                        <img src="img/Menu/Instagram_2.jpg" onmousedown="return false">
+                    </div>
+                    <div>
+                        <img src="img/Menu/Instagram_3.jpg" onmousedown="return false">
+                    </div>
+                    <div>
+                        <img src="img/Menu/Instagram_4.jpg" onmousedown="return false">
+                    </div>
+                </div>
+            </div>
+            <div id="FormUtama">
+                <div class="Login" align="center">
+                    <h2 class="Instadan">Instadan</h2>
+                    <form action="Config/ceklogin.php" method="POST">
+                        <table border="0">
+                                <tr>
+                                    <td>
+                                        <input class="input" name="username" type="text" maxlength="16" placeholder=" Username" required=""></input>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input class="input" name="password" type="password" maxlength="16" placeholder=" Password" required=""></input>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a class="LupaPassword" href="#">Lupa Password?</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input class="buttonLogin" value="Log In" type="submit" name="Login">
+                                    </td>
+                                </tr>
+                        </table>
+                    </form>
+                </div>
+                <div>
+                    <table class="BelumDaftar">
+                        <tr>
+                           <td align="center" class="Agency">Belum mempunyai Akun ? <a class="keDaftar" href="daftar.html"><b>Daftar</b></a></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="DownloadApp">
+                    <div align="center">Dapatkan Aplikasi.</span>
+                    <div class="KotakDownloadAppiOS">
+                        <a href="#"><img class="daftariOS" src="img/Menu/Daftar_iOS.png"></a>
+                    </div>
+                    <div class="KotakDownloadAppGoogle">
+                        <a href="#"><img class="daftarGooglePlay" src="img/Menu/Daftar_GooglePlay.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

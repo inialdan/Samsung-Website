@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>Aldan, Inc</title>
+        <link rel="stylesheet" type="text/css" href="css/cssDaftar.css">
+        <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#slideShow > div:gt(0)").hide();
+                    setInterval(function() { 
+                $('#slideShow > div:first')
+                    .fadeOut(3000)
+                    .next()
+                    .fadeIn(3000)
+                    .end()
+                    .appendTo('#slideShow');
+                    },      3000);
+            });
+        </script>
+        <style type="text/css">
+            #slideShow{
+                margin-top: 129px;
+                margin-left: 180px;
+                width: 252px; 
+                height: 500px; 
+
+            }
+            #slideShow > div { 
+                position: absolute;             
+            }
+            img{
+                width: 252px;
+                height: 450px;  
+            }
+        </style>
+    </head>
+    <body>
+    <div class="Inti">
+            <div id="FotoMenuInstadan"> 
+                <div id="slideShow" onmousedown="return false">
+                    <div>
+                        <img src="img/Menu/Instagram_1.jpg" onmousedown="return false">
+                    </div>
+                    <div>
+                        <img src="img/Menu/Instagram_2.jpg" onmousedown="return false">
+                    </div>
+                    <div>
+                        <img src="img/Menu/Instagram_3.jpg" onmousedown="return false">
+                    </div>
+                    <div>
+                        <img src="img/Menu/Instagram_4.jpg" onmousedown="return false">
+                    </div>
+                </div>
+            </div>
+        <div id="FormUtama">
+            <div class="Daftar" align="center">
+                <h2>Instadan</h2> </br>
+                <a class="aDaftar">Daftar untuk melihat Foto ataupun Video Teman Anda.</a>
+                <a href="#">
+                    <div class="LoginFacebook">
+                        <div class="LoginDenganFacebook">Login dengan Facebook</div>
+                    </div>
+                </a>
+                <div class="garisSatu"></div>
+                <div class="Atau">Atau</div>
+                <div class="garisDua"></div>
+                <form action="Config/insert.php" method="POST">
+                    <table>
+                            <tr>
+                                <td>
+                                    <input class="input" name="username" type="text" maxlength="16" placeholder=" Username" required=""></input>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input class="input" name="password" type="password" maxlength="16" placeholder=" Password" required=""></input>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input class="buttonDaftar" value="Daftar" type="submit" name="daftar">
+                                </td>
+                            </tr>
+                    </table>
+                </form>
+                <a class="a">By Daftar, You agree to our</br></a><a class="bold" href="#">Terms & Privacy Policy.</a>
+            </div>
+            <div>
+                <table class="SudahDaftar">
+                    <tr>
+                       <td align="center">Sudah mempunyai Akun ? <a class="keLogin" href="login.html"><b>Log In</b></a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="DownloadApp">
+                <div align="center">Dapatkan Aplikasi.</span>
+                <div class="KotakDownloadAppiOS">
+                    <a href="#"><img class="daftariOS" src="img/Menu/Daftar_iOS.png"></a>
+                </div>
+                <div class="KotakDownloadAppGoogle">
+                    <a href="#"><img class="daftarGooglePlay" src="img/Menu/Daftar_GooglePlay.png"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>

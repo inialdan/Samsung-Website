@@ -1,0 +1,100 @@
+body{
+	width: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.Inti{
+	width: 1000px;
+	height: 500px;
+	background-color: #fff;
+	margin-top: -10px;
+	margin-left: 250px;
+	float: left;
+}
+#FormUtama{
+	width: 250px;
+	height: 500px;
+	padding: 5px;
+	margin-top: 140px;
+	margin-left: 50px;
+	float: left;
+}
+.Instadan{
+	color: solid black;
+	font-family: 'Agency FB';
+}
+.Login{
+	width: 250px;
+	height: 200px;
+	border: 1px solid #EEEEEE;
+	font-family: 'Agency FB';
+}
+.input{
+	width: 200px;
+	height: 30px;
+	font-family: 'Agency FB';
+	font-size: 18px;
+}
+.buttonLogin{
+	width: 200px;
+	height: 30px;
+	color: white;
+	font-weight: bold;
+	background-color: #3897f0;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+.LupaPassword{
+	margin-left: 110px;
+	text-decoration: none;
+	color: #4183D7;
+	font-size: 17px;
+}
+
+.BelumDaftar{
+	margin-top: 25px;
+	width: 250px;
+	height: 50px;
+	border: 1px solid #EEEEEE;
+	font-family: 'Alhambra';
+}
+.keDaftar{
+	text-decoration: none;
+	color: #4183D7;
+	font-size: 18px;
+}
+
+.DownloadApp{
+	width: 250px;
+	height: 100px;
+	margin-top: 25px;
+	font-family: 'Agency FB';
+	font-size: 20px;
+}
+.KotakDownloadAppiOS{
+	width: 120px;
+	margin-top: 20px;
+	margin-left: -125px;
+}
+.daftariOS{
+	width: 120px;
+	height: 40px;
+} 
+.KotakDownloadAppGoogle{
+	width: 120px;
+	margin-top: -45px;
+	margin-left: 125px;
+}
+.daftarGooglePlay{
+	width: 120px;
+	height: 40px;
+}
+
+#FotoMenuInstadan{
+	width: 500px;
+	height: 650px;
+	float: left;
+	background-image: url(../img/InstagramSlideShowInti.png);
+	background-size: 100%;
+}

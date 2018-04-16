@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Launching People | Samsung</title>
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/smoothSlide.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/responsif.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome.css">
+	<link rel="icon" href="img/icon/icon-samsung.png">
+</head>
+<body>
+	<div class="responsif">
+
+		<div class="TheHeader">
+			<p class="Left">
+				<a href="index.html">
+					<img src="img/logo/logo-samsung.png" class="logo">
+				</a>
+			</p>
+			<p class="right">
+				<ul>
+					<li><a href="#launching">Home</a></li>
+					<li><a href="index.html">About</a></li>
+					<li><a href="index.html" id="event">Event</a></li>
+					<li><a href="index.html" id="portofolio">Portofolio</a></li>
+					<li><a href="index.html" id="contact">Contact</a></li>
+				</ul>
+				<div class="cari">
+					<input type="text" value="Search ..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Pencarian';}">
+					<button>
+					<span class="fa fa-search"></span>
+					</button>
+				</div>
+			</p>
+		</div>
+
+		<div id="launching" class="banner">
+
+			<div class="banner left">
+				<h2>'JOIN LAUNCHING PEOPLE'</br></br>We don't just launch the power of technology,</br>We launch people's
+				with Amazing Dream and Potential</br>To Join The Event.</h2>
+				<p>"Aldan Rizki Santosa - CEO Founder Samsung"</p>
+			</div>
+
+			<div class="banner left">
+				<div class="keSatu">
+					<div class="img-1">
+						<img src="img/banner/launching_people_toJoin.jpg">
+					</div>
+					<h3>Launching People will started on 31 Mei - 6 Juni 2016</h3>
+					<span class="satu">To Join Launching People Just 4 Days,</br>We will make Amazing dream and potential
+						</br>Cause we care about costumer.
+					</span>
+					<a href="daftar.html">
+						<div class="JoinInstadan">Join to Instadan</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="banner left">
+				<div class="keDua">
+					<div class="img-2">
+						<img src="img/banner/samsung-display-jewelry.jpg">
+					</div>
+					<h4>We can't arround the World without the Technology.</br>
+						<span class="dua">- Tiara Ervina 'Staff Leader of Technology Samsung'</span>
+					</h4>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<p><span class="fa fa-male" style="margin-right: 5px;"></span>Aldan Rizki Santosa - "CEO FOUNDER SAMSUNG" || &copy;Copyright Aldan, Inc - 2016 Reserved.</p>
+			<p class="dikanan">
+				<a href="https://www.facebook.com/profile.php?id=100009585773367" class="icon-contact">
+					<span class="fa fa-facebook"></span>
+				</a>
+				<a href="https://twitter.com/aldannnr" class="icon-contact">
+					<span class="fa fa-twitter"></span>
+				</a>
+				<a href="https://pinterest.com/inialdan" class="icon-contact">
+					<span class="fa fa-pinterest"></span>
+				</a>
+				<a href="https://www.instagram.com/inialdan/" class="icon-contact">
+					<span class="fa fa-instagram"></span>
+				</a>
+					<a href="https://youtube.com/aldanrizkisantosa" class="icon-contact">
+					<span class="fa fa-youtube-play"></span>
+				</a>
+			</p>
+		</div>
+
+		<div class="keatas">
+   			<a class="t-top fa fa-long-arrow-up"></a>
+  		</div>
+
+	</div>
+
+</body>
+
+	<style type="text/css">
+	    .keatas{
+	      	width: 0;
+	     	height: 0;
+	      	position: fixed;
+	      	right: 70px;
+	      	bottom: 120px;
+	      	z-index: 400;
+	    }
+	    .keatas .fa:hover{
+			background-color: #c52d2f;
+			color: #fff;
+			border: 4px solid #c52d2f;
+	    }
+	    .keatas .fa{
+	      	width: 50px;
+			padding: 5px 0px;
+			margin: 0px 5px;
+			font-size: 40px;
+			color: #1F3A93;
+			background-color: #fff;
+			text-align: center;
+			border-radius: 100%;
+			border: 4px solid #cccccc;
+			transition: background-color 0.8s ease, color 0.5s ease, border 1s;
+	    }
+	</style>
+
+	<script type="text/javascript">
+	    $(function(){
+
+	    		$('.keatas').hide();
+	    		$('.keSatu').hide();
+	    		$('.keDua').hide();
+	    		$('.img-1').hide();
+	    		$('.img-2').hide();
+				$('.footer').hide();
+
+				$(window).scroll(function(){
+
+		       		if($(this).scrollTop() > 200){
+		        		$('.keatas').fadeIn(); 
+		       		}
+		       		else{
+		        		$('.keatas').fadeOut();
+		       		}
+
+		       		if($(this).scrollTop() > 400){
+		        		$('.keSatu').fadeIn(2000); 
+		       		}
+		       		else{
+		        		$('.keSatu').fadeOut();
+		       		}
+		       			if($(this).scrollTop() > 400){
+		        		$('.img-1').fadeIn(2000); 
+		       			}
+		       			else{
+		        			$('.img-1').fadeOut();
+		       			}
+
+		       		if($(this).scrollTop() > 1000){
+		        		$('.keDua').fadeIn(2000); 
+		       		}
+		       		else{
+		        		$('.keDua').fadeOut();
+		       		}
+		    	       	if($(this).scrollTop() > 1000){
+		        		$('.img-2').fadeIn(2000); 
+		       			}
+		       			else{
+		        			$('.img-2').fadeOut();
+		       			}
+
+		       		if($(this).scrollTop() > 10){
+		        		$('.footer').fadeIn(1000); 
+		       		}
+		       		else{
+		        		$('.footer').fadeOut();
+		       		}
+
+		    	});
+
+			      	$(".t-top").click(function(){
+
+			       		$("html,body").animate({scrollTop:0},600);
+			       			return false;
+			       	});
+
+	    });
+	</script>
+
+</html>
